@@ -1,0 +1,12 @@
+{
+    "require": {
+        "symfony/routing": "^5.1",
+        "symfony/http-foundation": "^5.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Hello\\": "src/Hello/",
+            "Framework\\": "Framework/"
+        }
+    }
+}
